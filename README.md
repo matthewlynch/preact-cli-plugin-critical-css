@@ -24,7 +24,7 @@ export default (config, env) => {
 }
 ```
 
-##Configuration
+## Configuration
 Full list of possible options that are passed to [critical] are available [here](https://github.com/addyosmani/critical#usage).
 
 ## License
