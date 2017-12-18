@@ -1,6 +1,6 @@
 {
   "name": "preact-cli-plugin-critical-css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Preact CLI plugin for adding critical css to your pre-rendered routes",
   "main": "src/index.js",
   "scripts": {
