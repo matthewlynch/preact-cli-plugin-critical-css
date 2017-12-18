@@ -4,7 +4,9 @@
   "description": "Preact CLI plugin for adding critical css to your pre-rendered routes",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish-please": "publish-please",
+    "prepublish": "publish-please guard"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,8 @@
   "dependencies": {
     "deepmerge": "^2.0.1",
     "html-critical-webpack-plugin": "^1.0.1"
+  },
+  "devDependencies": {
+    "publish-please": "^2.3.1"
   }
 }
