@@ -1,0 +1,29 @@
+{
+  "name": "preact-cli-plugin-critical-css",
+  "version": "0.0.0",
+  "description": "Preact CLI plugin for adding critical css to your pre-rendered routes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewlynch/preact-cli-plugin-critical-css.git"
+  },
+  "keywords": [
+    "preact",
+    "preact-cli",
+    "preact cli plugin",
+    "critical css"
+  ],
+  "author": "Matthew Lynch <matt@mattlynch.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewlynch/preact-cli-plugin-critical-css/issues"
+  },
+  "homepage": "https://github.com/matthewlynch/preact-cli-plugin-critical-css#readme",
+  "dependencies": {
+    "deepmerge": "^2.0.1",
+    "html-critical-webpack-plugin": "^1.0.1"
+  }
+}
