@@ -38,12 +38,12 @@ function preactCliCriticalCssPlugin(config, env, options) {
 					new HtmlCriticalPlugin(
 						merge.all([
 							defaults,
-							opts,
 							{
 								base: path.resolve(env.dest),
 								src: filePath,
 								dest: filePath
-							}
+							},
+							opts,
 						])
 					)
 				);
