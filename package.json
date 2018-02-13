@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish-please": "publish-please",
-    "prepublish": "publish-please guard"
+    "prepublish": "publish-please guard",
+    "format": "prettier --write src/*.js"
   },
   "repository": {
     "type": "git",
@@ -15,8 +16,8 @@
   "keywords": [
     "preact",
     "preact-cli",
-    "preact cli plugin",
-    "critical css"
+    "critical css",
+    "preact cli plugin"
   ],
   "author": "Matthew Lynch <matt@mattlynch.io>",
   "license": "MIT",
@@ -29,6 +30,7 @@
     "html-critical-webpack-plugin": "^1.0.1"
   },
   "devDependencies": {
+    "prettier": "^1.10.2",
     "publish-please": "^2.3.1"
   }
 }

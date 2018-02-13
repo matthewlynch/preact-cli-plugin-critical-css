@@ -1,4 +1,4 @@
-# preact-cli-plugin-critical-css
+# preact-cli-plugin-critical-css [![npm version](http://img.shields.io/npm/v/preact-cli-plugin-critical-css.svg)](https://npmjs.org/package/gh-badges)
 
 [Preact CLI] plugin that adds critical css to your [pre-rendered] routes using [html-critical-webpack-plugin].
 
@@ -23,8 +23,7 @@ import criticalCssPlugin from "preact-cli-plugin-critical-css";
 
 export default (config, env) => {
 	const options = {
-		// passed directly to the 'critical' module
-		// This is optional
+		// Passed directly to the 'critical' module (this is optional)
 	};
 
 	criticalCssPlugin(config, env, options);
@@ -33,8 +32,7 @@ export default (config, env) => {
 
 ## Default options
 
-The plugin sets some default options. Below you find an overview of this options.
-Ofcourse, it's possible to override these in the options object.
+The plugin sets some default options which can be overridden:
 
 ```js
 const defaultOptions = {
