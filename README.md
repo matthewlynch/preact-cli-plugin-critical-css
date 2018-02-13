@@ -1,4 +1,4 @@
-# preact-cli-plugin-critical-css [![npm version](http://img.shields.io/npm/v/preact-cli-plugin-critical-css.svg)](https://npmjs.org/package/gh-badges)
+# preact-cli-plugin-critical-css [![npm version](http://img.shields.io/npm/v/preact-cli-plugin-critical-css.svg)](https://www.npmjs.com/package/preact-cli-plugin-critical-css)
 
 [Preact CLI] plugin that adds critical css to your [pre-rendered] routes using [html-critical-webpack-plugin].
 
